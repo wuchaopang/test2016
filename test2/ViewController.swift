@@ -9,6 +9,16 @@
 import UIKit
 
 class ViewController: UIViewController {
+        @IBAction func chengfa(sender: AnyObject) {
+        var temp=0
+        temp=(Int)(x.text!)!*(Int)(y.text!)!
+        z.text="\(temp)"
+    }
+    @IBAction func jianfa(sender: AnyObject) {
+        var temp=0
+        temp=(Int)(x.text!)!-(Int)(y.text!)!
+        z.text="\(temp)"
+    }
     @IBAction func add(sender: AnyObject) {
         var temp=0
         temp=(Int)(x.text!)!+(Int)(y.text!)!

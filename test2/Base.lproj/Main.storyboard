@@ -39,10 +39,35 @@
                                     <action selector="add:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PmM-e0-G9j"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="niM-ST-QCt">
+                                <rect key="frame" x="13" y="84" width="37" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="jianfa"/>
+                                <connections>
+                                    <action selector="jianfa:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hVX-Dg-Qx2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="eU7-mM-Q4X">
+                                <rect key="frame" x="72" y="84" width="56" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="chengfa"/>
+                                <connections>
+                                    <action selector="chengfa:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IL8-Sk-biw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vWQ-qn-aw3">
+                                <rect key="frame" x="151" y="84" width="39" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="chufa"/>
+                                <connections>
+                                    <action selector="chufa:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oTh-yy-XQp"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="chufa" destination="vWQ-qn-aw3" id="BdE-Ur-Lh3"/>
                         <outlet property="x" destination="I8F-mB-cTH" id="W9n-dH-6Eq"/>
                         <outlet property="y" destination="zKD-NS-0G6" id="m5J-i8-Lwh"/>
                         <outlet property="z" destination="XsX-gD-KqH" id="gTN-2i-1RF"/>
@@ -50,7 +75,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="162" y="396"/>
+            <point key="canvasLocation" x="385" y="411"/>
         </scene>
     </scenes>
 </document>
